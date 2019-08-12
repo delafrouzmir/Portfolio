@@ -1,0 +1,121 @@
+body {
+	background-color: #EDF0F5;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+	color: #4b4d66;
+}
+
+@media (max-height: 499px){
+	#bio {
+		height: 200px;
+	}
+	#header-img {
+		height: 300px;
+	}
+	#header-and-img-section {
+		height: 600px;
+	}
+}
+
+@media (min-height: 500px){
+	#bio {
+		height: 40vh;
+	}
+	#header-img {
+		height: 60vh;
+	}
+	#header-and-img-section {
+		height: 100vh;
+	}
+	section {
+		margin-bottom: 60px;
+	}
+}
+
+h1 {
+	color: white;
+}
+
+.persian {
+	font-family: 'Scheherazade', serif;
+}
+
+/* --HEADER-- */
+
+#nav-header {
+	margin: 0px;
+	padding: 0px;
+}
+
+#header-row {
+	background-color: #4b4d66;
+}
+
+#header-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #4b4d66;
+	left: 30%;
+}
+
+#header-list > li {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#header-img {
+	background-image: url('../../images/my-manhattan.jpg');
+	background-color: #4b4d66;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#name {
+	text-align: center;
+	position: absolute;
+	top: 95%;
+	left: 50%;
+	transform: translate(-50%, -95%);
+	text-shadow: 1px 1px 1px 1px #4b4d66;
+}
+
+/* --ABOUT ME-- */
+
+#profile-pic {
+	background-image: url('../../images/profile-pic.jpg');
+	background-size: 30vh 30vh;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#bio {
+	margin-top: 10px;
+}
+
+/* --EDUCATION-- */
+
+.col-pic {
+	background-color: #cccccc;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#edu-pic {
+	background-image: url('../../images/edu2.jpg');
+}
+
+#proj-pic {
+	background-image: url('../../images/proj1.jpg');
+}
+
+#hob-pic {
+	background-image: url('../../images/hob2.jpg');
+}
