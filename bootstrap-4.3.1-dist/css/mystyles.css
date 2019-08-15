@@ -18,17 +18,17 @@ body {
 }
 
 @media (min-height: 500px){
-	#bio {
+	/*#bio {
 		height: 40vh;
-	}
+	}*/
 	#header-img {
 		height: 60vh;
 	}
-	#header-and-img-section {
+	/*#header-and-img-section {
 		height: 100vh;
-	}
+	}*/
 	section {
-		margin-bottom: 60px;
+		margin-bottom: 40px;
 	}
 }
 
@@ -90,7 +90,7 @@ h1 {
 
 #profile-pic {
 	background-image: url('../../images/profile-pic.jpg');
-	background-size: 30vh 30vh;
+	background-size: 40vh 40vh;
 	background-repeat: no-repeat;
 	background-size: contain;
 }
@@ -102,7 +102,7 @@ h1 {
 /* --EDUCATION-- */
 
 .col-pic {
-	background-color: #cccccc;
+	background-color: #4b4d66;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -117,5 +117,5 @@ h1 {
 }
 
 #hob-pic {
-	background-image: url('../../images/hob2.jpg');
+	background-image: url('../../images/hob1.jpg');
 }
