@@ -1,6 +1,6 @@
 body {
 	background-color: #EDF0F5;
-	font-family: 'Oxygen', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #4b4d66;
 }
@@ -12,24 +12,18 @@ body {
 	#header-img {
 		height: 300px;
 	}
-	#header-and-img-section {
+	#home {
 		height: 600px;
 	}
 }
 
 @media (min-height: 500px){
-	/*#bio {
-		height: 40vh;
-	}*/
 	#header-img {
 		height: 60vh;
 	}
-	/*#header-and-img-section {
-		height: 100vh;
-	}*/
-	section {
+	/*section {
 		margin-bottom: 40px;
-	}
+	}*/
 }
 
 h1 {
@@ -60,12 +54,42 @@ h1 {
 	left: 30%;
 }
 
+#header-list {
+	float: left;
+}
+
 #header-list > li {
 	float: left;
-	display: block;
-	color: white;
-	text-align: center;
 	padding: 14px 16px;
+}
+
+#contact-list {
+	float: right;
+}
+
+#contact-list > li {
+	float: right;
+	color: white;
+	text-align: right;
+}
+
+ul {
+	margin-bottom: 0px;
+}
+
+li {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding: 14px 16px;
+}
+
+li > a {
+	color: white;
+}
+
+a:hover {
+	color: white;
 	text-decoration: none;
 }
 
@@ -84,6 +108,11 @@ h1 {
 	left: 50%;
 	transform: translate(-50%, -95%);
 	text-shadow: 1px 1px 1px 1px #4b4d66;
+}
+
+hr {
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 /* --ABOUT ME-- */
@@ -106,10 +135,11 @@ h1 {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	max-height: 800px;
 }
 
 #edu-pic {
-	background-image: url('../../images/edu2.jpg');
+	background-image: url('../../images/edu1.jpg');
 }
 
 #proj-pic {
@@ -117,5 +147,5 @@ h1 {
 }
 
 #hob-pic {
-	background-image: url('../../images/hob1.jpg');
+	background-image: url('../../images/hob.jpg');
 }

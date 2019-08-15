@@ -8,28 +8,49 @@
   <title>Delafrouz's Portfolio</title>
   <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/mystyles.css">
-  <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Scheherazade&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ccb3cd46a5.js"></script>
 </head>
 
 
 
 <body>
-	<section id="header-and-img-section">
+	<section id="home">
 		<header>
 			<nav id="nav-header" class="navbar">
 				<div id="header-row" class="container-fluid">
-					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-							<ul id="header-list">
-								<li>About Me</li>
-								<li>Educatoin</li>
-								<li>Projects</li>
-								<li>Hobbies</li>
-								<li>Contact</li>
-							</ul>
-						</div>
-					</div>
+					<ul id="header-list">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#edu">Educatoin</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#hobbies">Hobbies</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+					
+					<ul id="contact-list">
+						<li>
+							<a href="https://www.linkedin.com/in/delafrouz-mirfendereski-aa6436a7/" target="_blank">
+								<i class="fab fa-linkedin-in"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://twitter.com/Delafrooz" target="_blank">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/delafrouzmir/" target="_blank">
+								<i class="fab fa-github"></i>
+							</a>
+						</li>
+						<li>
+							<a href="mailto:dmirfendereski@gmail.com" target="_blank">
+								<i class="fas fa-envelope"></i>
+							</a>
+						</li>
+					</ul>
 				</div>
 				<div id="header-img" class="container-fluid">
 					<div id="name">
@@ -51,6 +72,13 @@
 		</div>
 	</section>
 
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<hr>
+			</div>
+		</div>
+	</div>
 
 	<section id="edu">
 		<div class="container">
@@ -70,7 +98,7 @@
 						
 						<h3>B.Sc. in Computer Engineering, Sharif University of Technology</h3>
 						<p>
-							<span class="font-weight-bold"> Thesis: Speech/Non-Speech Recognition</span> - In my thesis, I developed a program with MATLAB to detect speech or non-speech parts of audio files using SVM with linear kernel, and achieved up to 95\% accuracy. The test and train data was derived from 19 movies and labeled automatically using the subtitles.
+							<span class="font-weight-bold"> Thesis: Speech/Non-Speech Recognition</span> - In my thesis, I developed a program with MATLAB to detect speech or non-speech parts of audio files using SVM with linear kernel, and achieved up to 95% accuracy. The test and train data was derived from 19 movies and labeled automatically using the subtitles.
 							<span class="font-weight-bold"> Advisor: Dr. Hossein Sameti.</span>
 						</p>
 						<p>
@@ -84,6 +112,13 @@
 		</div>
 	</section>
 	
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<hr>
+			</div>
+		</div>
+	</div>
 
 	<section id="projects">
 		<div class="container">
@@ -94,28 +129,36 @@
 					<div>
 						<h3></h3>
 						<p>
-							<span class="font-weight-bold"> Thesis: Checkpoint/Restart Implementation for OpenSHMEM</span> - My thesis was focused on making OpenSHMEM, a PGAS parallel programming library, resilient towards failures. As the most popular resilience method, I implemented an in-memory checkpoint/restart system for OpenSHMEM. In this system, processes (the parallel entities) can request for their data to be saved in memory and when a failure happens, the last saved data will be reloaded in all the processes. If a process is dead, it will be replaced with a new process.
-							<span class="font-weight-bold"> Advisor: Prof. Barbara Chapman.</span>
+							<span class="font-weight-bold"> Thesis: Checkpoint/Restart Implementation for OpenSHMEM</span>
 						</p>
 						<p>
 							<span class="font-weight-bold"> Relevant Coursework: </span>
-							Algorithms, Parallel Programming Models, Fundamentals of Computer Networks, Artificial Intelligence, Theory of Database Systems, System Security.
 						</p>
-						
-						<h3>B.Sc. in Computer Engineering, Sharif University of Technology</h3>
 						<p>
-							<span class="font-weight-bold"> Thesis: Speech/Non-Speech Recognition</span> - In my thesis, I developed a program with MATLAB to detect speech or non-speech parts of audio files using SVM with linear kernel, and achieved up to 95\% accuracy. The test and train data was derived from 19 movies and labeled automatically using the subtitles.
-							<span class="font-weight-bold"> Advisor: Dr. Hossein Sameti.</span>
+							<span class="font-weight-bold"> Thesis: Speech/Non-Speech Recognition</span>
 						</p>
 						<p>
 							<span class="font-weight-bold"> Relevant Coursework: </span>
-							Advanced Programming (Java), Data Structures and Algorithms, Web Development (Audited), 3D Computer Vision, Speech Processing, Fundamentals of Bioinformatics.
+						</p>
+						<p>
+							<span class="font-weight-bold"> Relevant Coursework: </span>
+						</p>
+						<p>
+							<span class="font-weight-bold"> Relevant Coursework: </span>
 						</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<hr>
+			</div>
+		</div>
+	</div>
 
 
 	<section id="hobbies">
@@ -126,10 +169,10 @@
 					<div>
 						<h3>Journalism</h3>
 						<p>
-							Starting from the end of high school, reading and thinking about women's right became an enormous interest of mine. After entering m undergraduate university, I found the oppurtunity to join groups with focus on women's rights and studies, which soon became my biggest extracurricular activity. Living in one of countries with the least gender equality, I made it my mission to increase my own knowledge, awareness, and movements inside the university towards a better place for female students. Due to large effects of politics in Iran on women's rights, I also became interested in the politics and everyday news in Iran and the World. Some of my more significant activities were:
+							Starting from the end of high school, reading and thinking about women's right became an enormous interest of mine. After entering my undergraduate university, I found the oppurtunity to join groups with focus on women's rights and studies, which soon became my biggest extracurricular activity. Living in one of countries with the least gender equality, I made it my mission to increase my own knowledge, awareness, and movements inside the university towards a better place for female students. Due to large effects of politics in Iran on gender issues, I also became interested in the politics and everyday local and global news. Some of my more significant activities were:
 						</p>
 						<p>
-							<span class="font-weight-bold"> Women Rights and Studies Groups:</span> 
+							<span class="font-weight-bold"> Women's Rights and Studies Groups:</span> 
 							During my undergraduate years 2010-2015, I joined three different women’s rights and studies groups. During weekly or bi-weekly meetings, we read and discussed different articles and books about women's rights and issues, and the politics and religous beliefs around them. We celebrated Women's International Day (not observed in Iran), and updated the clubs' boards frequently.
 						</p>
 						<p>
@@ -137,7 +180,7 @@
 							 The journal's name, meaning "The Other", was inspired by de Beauvoir’s quote in The Second Sex, “He is the Subject, he is the Absolute – she is the Other.” I was the chief editor of this cultural-social journal, and we wrote articles with focus on women and minorities' problems in Iran. My articles mostly covered violence against women and hijab enforcement inside the university which had intensified during those years.
 						</p>
 						<p>
-							<span class="font-weight-bold"> Khabarname Weekly Journal</span> <span class="persian font-weight-bold">(هفته‌نامه‌ی خبرنامه):</span> Around 2015, I started to write for the women’s right section of another weekly journal, called “Khabarname”, or “News Letter”. Aside from a special article for International Women’s Day, my most significant work was one criticizing the government’s lack of attention to women’s problems. This journal was the most popular journal at the time in the university, selling a few hundred copies each week.
+							<span class="font-weight-bold"> Khabarname Weekly Journal</span> <span class="persian font-weight-bold">(هفته‌نامه‌ی خبرنامه):</span> Around 2015, I started to write for the women’s right section of another weekly student journal, called “Khabarname”, or “News Letter”. Aside from a special article for International Women’s Day, my most significant work was one criticizing the government’s lack of attention to and work on women’s issues. This journal was the most popular journal at the time in the university, selling a few hundred copies each week.
 						</p>
 						<p>
 							<span class="font-weight-bold"> RAA: </span>
@@ -155,6 +198,51 @@
 					</div>
 				</div>
 				<div id="hob-pic" class="col-pic col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+			</div>
+		</div>
+	</section>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<hr>
+			</div>
+		</div>
+	</div>
+
+
+	<section id="skills">
+		<div class="container">
+			<div class="row">
+				<div id="skills-pic" class="col-pic col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+				<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+					<h2>Skills</h2>
+					<div>
+						<h3>Programming</h3>
+						<p>
+							<span class="font-weight-bold"> Thesis: Checkpoint/Restart Implementation for OpenSHMEM</span> - My thesis was focused on making OpenSHMEM, a PGAS parallel programming library, resilient towards failures. As the most popular resilience method, I implemented an in-memory checkpoint/restart system for OpenSHMEM. In this system, processes (the parallel entities) can request for their data to be saved in memory and when a failure happens, the last saved data will be reloaded in all the processes. If a process is dead, it will be replaced with a new process.
+							<span class="font-weight-bold"> Advisor: Prof. Barbara Chapman.</span>
+						</p>
+						
+						<h3>Tools</h3>
+						<p>
+							<span class="font-weight-bold"> Thesis: Speech/Non-Speech Recognition</span> - In my thesis, I developed a program with MATLAB to detect speech or non-speech parts of audio files using SVM with linear kernel, and achieved up to 95\% accuracy. The test and train data was derived from 19 movies and labeled automatically using the subtitles.
+							<span class="font-weight-bold"> Advisor: Dr. Hossein Sameti.</span>
+						</p>
+
+						<h3>Language</h3>
+						<p>
+							<span class="font-weight-bold"> Relevant Coursework: </span>
+							Advanced Programming (Java), Data Structures and Algorithms, Web Development (Audited), 3D Computer Vision, Speech Processing, Fundamentals of Bioinformatics.
+						</p>
+
+						<h3>Other Skills</h3>
+						<p>
+							<span class="font-weight-bold"> Relevant Coursework: </span>
+							Advanced Programming (Java), Data Structures and Algorithms, Web Development (Audited), 3D Computer Vision, Speech Processing, Fundamentals of Bioinformatics.
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
