@@ -125,26 +125,42 @@
 			<div class="row">
 				<div id="proj-pic" class="col-pic col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
 				<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
-					<h2>Projects</h2>
+					<h2>Other Projects and Research Experiences</h2>
 					<div>
 						<h3></h3>
 						<p>
-							<span class="font-weight-bold"> Thesis: Checkpoint/Restart Implementation for OpenSHMEM</span>
+							<span class="font-weight-bold">Parallel Computing:</span>
+
 						</p>
 						<p>
-							<span class="font-weight-bold"> Relevant Coursework: </span>
+							<span class="font-weight-bold">Web Application Firewall (WAF):</span>
+							A project for System Security course (Fall 2016)- we implemented a WAF including multiple systems such as a packet analyzer, a URL parser, and train and test modes. The WAF was designed to stop XSS attacks and SQL injections on a Joomla weblog (using a vulnerable version). After arrival of a packet at the packet analyzer, the reuqested URL was parsed to detect the subparts of the URL and type of request. In training mode (when we suppose all requests are legitimate), we stored the URL subparts and the type of request made presented by a bit vector (e.g., if the request only consists of alpha-numerical characters) in nested hashtables. At the end of the training mode, all stored data was flushed to a file to be used during test mode as a white list. During test mode, the file was loaded back into hashtables and any packet with a request outside of the white list was dropped. I implemented the store and search process with hashtables in C.
 						</p>
 						<p>
-							<span class="font-weight-bold"> Thesis: Speech/Non-Speech Recognition</span>
+							<span class="font-weight-bold">Handwritten Digit Recognition:</span>
+							A project for Machine Learning course (Spring 2016)- we compared the accuracy of different Machine Learning models (e.g. K-NN, K-means, and SVM) along with Image Processing methods (such as edge, line or corner detectors, Hough Transform, etc) to categorize pictures of low-resolution handwritten digits. We achieved up to 94% accuracy - programmed with MATLAB.
 						</p>
 						<p>
-							<span class="font-weight-bold"> Relevant Coursework: </span>
+							<span class="font-weight-bold">Graph Labeling and Factorization:</span>
+							(Spring 2014 - Spring 2015) We studied graph labeling and chromatic number of a special group of graphs (forests), developed and proved new theories and tested some using C++ programming.
 						</p>
 						<p>
-							<span class="font-weight-bold"> Relevant Coursework: </span>
+							<span class="font-weight-bold">GUI for Data Search:</span>
+							(Spring 2014) - I implemented a GUI using Java Swing enabling the user to search for data with desired labels (e.g. length, male or female voices, year, etc) in text and speech dataset.
 						</p>
 						<p>
-							<span class="font-weight-bold"> Relevant Coursework: </span>
+							<span class="font-weight-bold">Automatic Language Detection:</span>
+							A project for the graduate course Speech Processing (Spring 2014) - We developed a program to detect the language of speech files in English, French, and German, with MATLAB. We tried implementing different methods and I implemented the train and test parts using SVM method and achieved more than 90% accuracy.
+						</p>
+						<p>
+							<span class="font-weight-bold">Whole Transcriptome Assembly:</span>
+							A project for the graduate course Fundamentals of Bioinformatics (Spring 2014) - We were given the sequences of rice genome (Oryza Sativa species), using the sequences of Harvard Gene Index, UTRdb, RAP, and some other databases, to analyze in order to increase the length of the sequences and decrease the error, programmed in C++.
+						</p>
+						<p>
+							<span class="font-weight-bold">Camera Calibration:</span>
+						</p>
+						<p>
+							<span class="font-weight-bold">Tetris:</span>
 						</p>
 					</div>
 				</div>
