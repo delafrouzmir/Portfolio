@@ -73,23 +73,26 @@ h1 {
 	text-align: right;
 }
 
-ul {
+#header-row ul {
 	margin-bottom: 0px;
 }
 
-li {
+#header-row li {
 	display: block;
 	text-align: center;
 	text-decoration: none;
 	padding: 14px 16px;
 }
 
-li > a {
+#header-row li > a {
 	color: white;
 }
 
-a:hover {
+#header-row li > a:hover {
 	color: white;
+}
+
+li > a:hover, footer > a:hover {
 	text-decoration: none;
 }
 
@@ -139,13 +142,27 @@ hr {
 }
 
 #edu-pic {
-	background-image: url('../../images/edu1.jpg');
+	background-image: url('../../images/edu.jpg');
 }
 
 #proj-pic {
-	background-image: url('../../images/proj1.jpg');
+	background-image: url('../../images/proj.jpg');
 }
 
 #hob-pic {
 	background-image: url('../../images/hob.jpg');
 }
+
+#skills-pic {
+	background-image: url('../../images/skill.jpg');
+}
+
+footer {
+	font-size: 12px;
+	text-align: center;
+	color: #777777;
+	padding-bottom: 10px;
+}
+
+/*TO DO*/
+/*different navbar and pics for meduim devices*/
