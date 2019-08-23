@@ -21,13 +21,12 @@ body {
 	#header-img {
 		height: 60vh;
 	}
-	/*section {
-		margin-bottom: 40px;
-	}*/
 }
 
 h1 {
+	position: relative;
 	color: white;
+	z-index: 0;
 }
 
 .persian {
@@ -39,49 +38,35 @@ h1 {
 #nav-header {
 	margin: 0px;
 	padding: 0px;
-}
-
-#header-row {
 	background-color: #4b4d66;
 }
 
-#header-list {
+#header-row {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	background-color: #4b4d66;
-	left: 30%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
 }
 
-#header-list {
-	float: left;
-}
-
-#header-list > li {
-	float: left;
+#header-row li {
 	padding: 14px 16px;
 }
 
 #contact-list {
+	margin: 0;
+	padding: 0;
 	float: right;
+	list-style-type: none;
 }
 
 #contact-list > li {
 	float: right;
-	color: white;
 	text-align: right;
-}
-
-#header-row ul {
-	margin-bottom: 0px;
-}
-
-#header-row li {
-	display: block;
-	text-align: center;
-	text-decoration: none;
-	padding: 14px 16px;
 }
 
 #header-row li > a {
@@ -97,6 +82,7 @@ li > a:hover, footer > a:hover {
 }
 
 #header-img {
+	clear: both;
 	background-image: url('../../images/my-manhattan.jpg');
 	background-color: #4b4d66;
 	background-repeat: no-repeat;
@@ -118,17 +104,28 @@ hr {
 	margin-bottom: 50px;
 }
 
+button.navbar-toggler {
+	margin-left: 14px;
+}
+
+/*button.navbar-toggler:active, button.navbar-toggler:hover, button.navbar-toggler:visited {
+	text-decoration: none;
+}*/
+
 /* --ABOUT ME-- */
 
 #profile-pic {
+	position: relative;
 	background-image: url('../../images/profile-pic.jpg');
 	background-size: 40vh 40vh;
 	background-repeat: no-repeat;
 	background-size: contain;
+	z-index: 0;
 }
 
 #bio {
-	margin-top: 10px;
+	margin-top: 14px;
+	font-size: 20px;
 }
 
 /* --EDUCATION-- */
