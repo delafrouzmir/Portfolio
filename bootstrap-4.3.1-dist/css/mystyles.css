@@ -23,6 +23,17 @@ body {
 	}
 }
 
+@media (max-width: 991px) {
+	.col-pic {
+		max-height: 500px;
+	}
+}
+@media (min-width: 992px) {
+	.col-pic {
+		max-height: 700px;
+	}
+}
+
 h1 {
 	position: relative;
 	color: white;
@@ -69,6 +80,7 @@ h1 {
 	text-align: right;
 }
 
+
 #header-row li > a {
 	color: white;
 }
@@ -88,6 +100,7 @@ li > a:hover, footer > a:hover {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	margin-top: 52px;
 }
 
 #name {
@@ -108,9 +121,6 @@ button.navbar-toggler {
 	margin-left: 14px;
 }
 
-/*button.navbar-toggler:active, button.navbar-toggler:hover, button.navbar-toggler:visited {
-	text-decoration: none;
-}*/
 
 /* --ABOUT ME-- */
 
@@ -135,7 +145,6 @@ button.navbar-toggler {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	max-height: 700px;
 }
 
 #edu-pic {
