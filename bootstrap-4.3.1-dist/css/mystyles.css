@@ -135,11 +135,15 @@ button.navbar-toggler {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	max-height: 800px;
+	max-height: 700px;
 }
 
 #edu-pic {
 	background-image: url('../../images/edu.jpg');
+}
+
+#job-pic {
+	background-image: url('../../images/jobs2.jpg');
 }
 
 #proj-pic {
